@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image:url(./images/wallpapersden.com_macos-12-monterey-stock-light_3840x3491-01.jpeg);;
+    background-size: cover;
+    font-family: 'Roboto Slab', serif;
+}

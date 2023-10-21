@@ -1,0 +1,20 @@
+<div class="post-section">
+    <input type="text"  class="task-input" placeholder="Type Task"  name="task" [(ngModel)]="taskName">
+    <button  class="create-btn" (click)="postTask()">CREATE</button>
+</div>
+
+<div class="container">
+    <div>
+        <div class="showTask" *ngFor="let task of allTask">
+        <input type="checkbox" class="done-input"  [checked]="task.done">
+        <h3 class="task">{{task.name}}</h3>
+        <button type="button" (click)="editTask(task)">Edit</button>
+        <button  type="button" (click)="deleteTask(task._id)">Delete</button>
+        </div>
+    </div>
+    <div>
+        <app-edit (eventEmit)="reciveResponse($event)" class="edit-section" [editData]="editData" ></app-edit>
+    </div>
+</div>
+
+

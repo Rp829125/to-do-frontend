@@ -1,0 +1,103 @@
+
+
+
+
+.post-section{
+border:none;
+border-radius: 5px; 
+margin-left: 53px;
+width:530px;
+padding-top: 10px;
+background-color: rgba(107, 26, 139, .2);
+}
+
+
+.task-input{
+    margin-top: 5px;
+    width: 170px;
+    height: 19px;
+    margin-left: 50px;
+    margin-right: 10px;
+    border-color: transparent;
+    margin-bottom: 15px;
+    
+}
+
+.create-btn{
+    background-color: transparent;
+    color: black;
+    border: solid black 1px;
+    width: 80px;
+    height: 25px;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 5px;
+
+}
+
+button{
+    background-color: transparent ;
+    color: black;
+    border: solid black 1px;
+    width: 80px;
+    height: 25px;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px ;
+    
+}
+
+button:hover{
+    background-color: rgba(107, 26, 139, .5);
+    transition: all ease-out 2s;
+    cursor: pointer;
+
+}
+
+
+
+.container{
+    display: flex;
+   flex-direction: row;
+   align-items:flex-start;
+
+}
+
+
+.showTask{
+    
+   padding-top: 0px;
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display:block;
+    
+    /* border-bottom: solid 0.1px black; */
+    
+}
+.done-input{
+    position:relative;
+    top: 6px;
+    height: 35px;
+    width:25px;
+    margin-top:0px;
+    display:inline-block;
+}
+
+
+.task{
+    background: transparent; 
+    display: inline-block;
+    width: 250px;
+    height: 25px;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 12px;
+    margin-bottom: 0px;
+    padding-left: 80px;
+    text-decoration:line-through;
+    
+}
+
